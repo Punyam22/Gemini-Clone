@@ -1,0 +1,97 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 20px 15px;
+}
+
+.sidebar img{
+    width: 20px;
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.sidebar .new-chat{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 16px;
+    color: grey;
+    cursor: pointer;
+}
+
+.sidebar .new-chat:hover{
+    background-color: #e2e6eb;
+}
+
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-entry{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 20px;
+    color: #282828;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sidebar .recent-entry:hover{
+    background-color: #e2e6eb;
+}
+
+.recent-entry p{
+    flex: 1;
+    margin: 0;
+}
+
+.recent-entry .delete-button{
+    display: inline-block;
+    padding: 0 6px;
+    margin-right: 0;
+    margin-left: auto;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-entry .delete-button:hover{
+    background-color: #c7cbcf;
+}
+
+.recent-entry .delete-button img{
+    width: 15px;
+    transform: rotate(45deg);
+    margin-top: 2px;
+}
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .bottom-items{
+    padding-right: 10px;
+}
